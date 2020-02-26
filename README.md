@@ -71,7 +71,7 @@ This guide will take you through setting up your Radius API Server
 
 ```sh
 
-git clone XYZ /opt/radius-api
+git clone https://github.com/jozefrebjak/radius-api.git /opt/radius-api
 
 cd /opt/radius-api
 
@@ -87,7 +87,6 @@ After instalation of dependencies you need to specife `.env` parameters
 touch .env
 
 # Insert this parameters and edit them with your parameters
-
 DB_HOST=YOUR_DATABASE_HOSTNAME_OR_IP
 DB_USER=YOUR_USER 
 DB_PASS=YOUR_USER_PASS
@@ -104,7 +103,7 @@ There is two procedures needed for production. They are need for POST and UPDATE
 1. procedure-userAddOrEdit.sql
 2. procedure-nasAdd.sql
 
-Log to your database and run the sql statements in that files.
+Log to your database and run the sql statements from that files.
 
 ### Step 4: Run Radius API Server as a service
 
