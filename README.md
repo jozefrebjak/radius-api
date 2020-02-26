@@ -2,7 +2,12 @@
 
 > API Server for FreeRadius3 with DaloRadius
 
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue)]
+![Last commit](https://img.shields.io/github/last-commit/jozefrebjak/radius-api)
+[![Issues](https://img.shields.io/github/issues/jozefrebjak/radius-api)](https://github.com/jozefrebjak/radius-api/issues)
+[![Forks](https://img.shields.io/github/forks/jozefrebjak/radius-api)](https://github.com/jozefrebjak/radius-api/network)
+[![GitHub stars](https://img.shields.io/github/stars/jozefrebjak/radius-api)](https://github.com/jozefrebjak/radius-api/stargazers)
+[![License](https://img.shields.io/github/license/jozefrebjak/radius-api)](https://github.com/jozefrebjak/radius-api/blob/master/LICENCE)
 
 ## Built With
 
