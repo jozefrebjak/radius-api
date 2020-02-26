@@ -1,0 +1,23 @@
+{
+    "name": "radius-api",
+    "version": "1.0.0",
+    "description": "API Server for FreeRadius3 with DaloRadius",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon /src/index.js"
+    },
+    "author": "Jozef Rebjak",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "fs": "0.0.1-security",
+        "morgan": "^1.9.1",
+        "mysql": "^2.18.1",
+        "swagger-jsdoc": "^3.5.0",
+        "swagger-ui-express": "^4.1.3"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.2"
+    }
+}

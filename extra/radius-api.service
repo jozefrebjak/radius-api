@@ -1,0 +1,11 @@
+[Unit]
+Description=Radius API Server
+After=network-online.target
+
+[Service]
+Restart=on-failure
+WorkingDirectory=/opt/radius-api/
+ExecStart=/usr/bin/node /opt/radius-api/src/index.js
+
+[Install]
+WantedBy=multi-user.target
