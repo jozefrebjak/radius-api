@@ -3,6 +3,7 @@
 > API Server for FreeRadius3 with DaloRadius
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![Node.js CI](https://github.com/jozefrebjak/radius-api/workflows/Node.js%20CI/badge.svg)
 ![Last commit](https://img.shields.io/github/last-commit/jozefrebjak/radius-api)
 [![Issues](https://img.shields.io/github/issues/jozefrebjak/radius-api)](https://github.com/jozefrebjak/radius-api/issues)
 [![Forks](https://img.shields.io/github/forks/jozefrebjak/radius-api)](https://github.com/jozefrebjak/radius-api/network)
