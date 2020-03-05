@@ -1,9 +1,5 @@
-USE radius;
-
 DELIMITER $$
-USE `radius`$$
-
-CREATE PROCEDURE `userAddOrEdit` (
+CREATE DEFINER=`root`@`localhost` PROCEDURE `userAddOrEdit`(
   IN _username VARCHAR(64),
   IN _value VARCHAR(253),
   IN _firstname VARCHAR(200),
@@ -43,4 +39,5 @@ BEGIN
       groupname = _groupname
         WHERE username = _username;
     END IF;
-END
+END$$
+DELIMITER ;
