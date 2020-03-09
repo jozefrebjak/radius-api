@@ -31,7 +31,7 @@
     - /user-group/{groupname}
 - Nas
     - /nas-all
-    - /nas-id
+    - /nas-id/{id}
     - /nas-name/{shortname}
     - /nas-ip/{nasname}
 
